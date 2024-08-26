@@ -1,5 +1,5 @@
-#INCLUDE ".\\WoW_Disassembly\\WoW_Disassembly_Include_Files\\WoW_Disassembly_Header.include"
-
+; #INCLUDE ".\\WoW_Disassembly\\WoW_Disassembly_Include_Files\\WoW_Disassembly_Header.include"
+; This code was written for the TASM assembler and will have to be converted to for ZMAC to compile it.
 ; Verified working 7/8/2018
 
 ;******************************************************************************
@@ -37,7 +37,7 @@ L0017:		ld	 a,00000000b	; Disable coin counter 3
 L0026:		ld	 a,$00		; Set High order byte for Interrupt                                                            
 		ld	 i,a		; Interrupts will be from $0000 to $00FF                          
 		im	 2		; Explaination: A call is made to an address read from
-					; address (register I × 256 + value from interrupting device)        
+					; address (register I Ã— 256 + value from interrupting device)        
 				         
 
 
