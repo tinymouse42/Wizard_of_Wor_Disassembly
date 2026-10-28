@@ -21,7 +21,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git remote add upstream https://github.com/UPSTREAM_OWNER/UPSTREAM_REPO.git
+          git remote add upstream https://github.com/astrocadester/WizardOfWor.git
           git fetch upstream
           git checkout main
           git merge upstream/main -m "Merge upstream changes from astrocadester/WizardOfWor"
